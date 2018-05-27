@@ -223,7 +223,7 @@ input[type=password]{
     outline:none;
     padding-left:10px;
   }
-  .login-form input[type="button"] {
+  .login-form button {
     height:30px;
     width:100px;
     background:#fff;
@@ -482,6 +482,7 @@ h2#repair{
  #request-span {
   position: relative;
   margin-left: 189px;
+  bottom: 100px;
  }
 
  #form1 textarea {
