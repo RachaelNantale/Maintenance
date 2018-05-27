@@ -305,6 +305,41 @@ input[type=password]{
    align-content: center;
  
   }
+  /*status of the request*/
+  h2.new{
+    background-color: yellow;
+    color: #000;
+    height: 20px;
+    width: 40px;
+    padding: 0.15em 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,0.12)
+  }
+  h2.reject{
+    background-color: red;
+    height: 20px;
+    width: 80px;
+    padding: 0.15em 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,0.12)
+  }
+  h2.approve{
+    background-color: green;
+    width: 90px;
+    height: 20px;
+    padding: 0.15em 4px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,0.12)
+  }
  /* table.table1{
     border-collapse: collapse;
     width:100%;
@@ -366,12 +401,27 @@ input[type=password]{
  .resolve_button {
   margin-bottom: 20px;
   margin-top: 15px;
+  background-color: blue
+ }
+ .reject_button {
+   background-color: red;
+ }
+ .approve_button {
+   background-color: green;
  }
 
  .suspend_button {
   margin-bottom: 20px;
   margin-top: 15px;
+  background-color: blue;
  }
+ .delete_button {
+   background-color: red;
+   
+  }
+  .admin_button {
+    background-color: green;
+  }
 
  #search_bar {
    width: 40% !important;
@@ -393,7 +443,6 @@ input[type=password]{
 
  .admin_buttons button{
   text-align: center;
-  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -402,4 +451,43 @@ input[type=password]{
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
+ }
+
+ #username{
+  width: 40% !important;
+  position: relative;
+  left: 110px;
+ }
+
+ #form1-span {
+  position: relative;
+  left: -136px;
+ }
+
+ #form1 select {
+  margin-bottom: 30px;
+  height: 40px;
+ }
+
+ #request-span {
+  position: relative;
+  margin-left: 189px;
+ }
+
+ #form1 textarea {
+  position: relative;
+  margin-left: 60px;
+  width: 520px;
+ }
+
+ #user-span {
+  position: relative;
+  left: 60px;
+ }
+
+
+ #createRequest {
+  position: relative;
+  font-size: 30px;
+  top: 30px;
  }
