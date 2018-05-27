@@ -29,17 +29,23 @@
     <input type="text" id="search_bar" name="Search" value="Search">
     <input type="submit" id="search_button" name="Search" value="Search">
 	 Filter By:<select id="request_filter">
-            <option value="Maintenance">Maintenance</option>
-            <option value="Repair">Repair</option>
-            
+        <option>Type:</option>
+        <option value="Maintenance">Maintenance</option>
+        <option value="Repair">Repair</option>
         </select>
+        <select id ="request_filter">
+        <option>Status:</option>
+                <option value="New">New</option>
+                <option value="Pending">Pending</option>
+                <option value="Approved">Approved</option>
+                <option value="Rejected">Rejected</option>
+                </select>
 
         <h3 class="requestHeading">Requests Made</h3>
 	<div  id="table_div"class="container">
         
         <div class="media-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolorem ab voluptate eaque, hic quae sapiente repellat debitis unde pariatur libero velit cumque asperiores aliquam magnam accusamus modi tempora! Voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ullam eveniet corrupti, nesciunt laboriosam minima deserunt officiis et dignissimos. Repellendus facilis odit eveniet iusto nam id aliquam ut sequi temporibus.</p>
+            <p>The Laptop screen is cracked and the the Esc button doesnot work at all.</p>
                 <div class = "admin_buttons">
                 	<button type="button" class="approve_button">Approve</button>
 					<button type="button" class="reject_button">Reject</button>
@@ -50,8 +56,7 @@
         <hr>
         <div>
             <div class="media-body" >
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                empor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Need to switch from Windows operating software to iOS on my Lenovo notepad.</p>
                 <div class = "admin_buttons">
                         <button type="button" class="approve_button">Approve</button>
                         <button type="button" class="reject_button">Reject</button>
@@ -63,8 +68,7 @@
             <hr>
         <div class="media">
             <div class="media-body" >
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Update from Windows 8 to Windows 10</p>
                 <div class = "admin_buttons">
                         <button type="button" class="approve_button">Approve</button>
                         <button type="button" class="reject_button">Reject</button>
@@ -139,8 +143,7 @@
     <div  id="table_div2"class="container">
         
             <div class="media-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolorem ab voluptate eaque, hic quae sapiente repellat debitis unde pariatur libero velit cumque asperiores aliquam magnam accusamus modi tempora! Voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ullam eveniet corrupti, nesciunt laboriosam minima deserunt officiis et dignissimos. Repellendus facilis odit eveniet iusto nam id aliquam ut sequi temporibus.</p>
+                <p>Rachael Minani </p>
                     <div class = "admin_buttons">
                             <button type="button" class="admin_button">Make Admin</button>
                             <button type="button" class="delete_button">Delete</button>
@@ -151,8 +154,7 @@
             <hr>
             <div>
                 <div class="media-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    empor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Dean Winchester</p>
                     <div class = "admin_buttons">
                             <button type="button" class="admin_button">Make Admin</button>
                             <button type="button" class="delete_button">Delete</button>
@@ -164,8 +166,7 @@
                 <hr>
             <div class="media">
                 <div class="media-body" >
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Username.</p>
                     <div class = "admin_buttons">
                             <button type="button" class="admin_button">Make Admin</button>
                         <button type="button" class="delete_button">Delete</button>
