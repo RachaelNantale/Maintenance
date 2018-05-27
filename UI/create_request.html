@@ -21,25 +21,35 @@
             </nav>
         </header>
     <!--End of Navigation Bar!!-->
-    <div class="signupheading">Create a request:</div>
+    <div class="signupheading" id="createRequest">Create a request:</div>
+    <div class="login-form">
     <form id="form1">
-        Username:
-        <input type="text" name="username" placeholder="Username" class="margin-setiing">
-        Request type:
+        <div>
+        <span id="user-span">Username:</span>
+        <input type="text" id="username" name="username" placeholder="Username" class="margin-setiing">
+        </div>
+
+        <div>
+        <span id="form1-span">Request type:</span>
         <select>
                 <option value="Maintenance">Maintenance</option>
                 <option value="Repair">Repair</option>
                 
-            </select>
-        Request:
+        </select>
+        </div>
+
+        <div>
+        <span id="request-span">Request:</span>
         <textarea class="signupheading" rows="9" cols="70" name="request"> Please fill in your Request</textarea><br><br>
+        </div>
+
         <button class="button" style="vertical-align:middle"><span>Submit </span></button>
       
     </form> 
-    
+    </div>
 
     <!--Footer-->
-    <footer class="footer">&copy;Maintainance App</footer>
+    <footer class="footer">&copy; Maintainance App</footer>
 	<!--Footer-->
  
 </body>
