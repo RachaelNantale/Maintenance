@@ -139,10 +139,11 @@ nav ul li ul li a:hover{
 }
 /*Sign up form*/
 #form1 {
-    margin-left: 40px;
-    margin-right:  50%;
+  
+    text-align: center;
+    /*margin-left: 40px;
     margin-top:  60px;
-    margin-bottom: 100px
+    margin-bottom: 100px*/
 }
 /*Class for input for sign up*/
 .margin-setiing{
@@ -150,12 +151,12 @@ nav ul li ul li a:hover{
 }
 /* sytles for all input*/
 input[type=text]{
-    width:100%;
+    width:25%;
     padding: 10px;
 
 }
 input[type=password]{
-    width:100%;
+    width:25%;
     padding: 10px;
 }
 i
