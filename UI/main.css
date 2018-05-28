@@ -45,7 +45,7 @@ nav p{
   float: left;
   color: blueviolet;
   text-align: center;
-  padding: 0px 20px;
+  padding: 0 20px;
   text-decoration: none;
   font-size: 24px;
 }
@@ -53,9 +53,10 @@ a.textalign_right{
   float: left;
   color:#7707df;
   margin-left: 45%;
-  padding: 0px 20px;
+  padding: 0 20px;
   text-decoration: none;
   font-size: 24px;
+  
 
 }
 /* Change the color of links on hover */
@@ -69,7 +70,7 @@ a.textalign_right{
  a.active {
     /*background-color: #4CAF50;*/
     font-style: arial;
-    color: white;
+    color:black;
   }
   a.active {
   /*background-color: #4CAF50;*/
@@ -83,13 +84,13 @@ nav ul{
 nav ul li{
   float: left;
   list-style: none;
-  position: relative;
+  position: inherit;
 }
 
 nav ul li a{
   display: block;
   font-family: Arial;
-  color:#fbfbfb;
+  color: black;
   font-size: 14px;
   padding: 22px 14px;
   text-decoration: none;
@@ -222,7 +223,7 @@ input[type=password]{
     outline:none;
     padding-left:10px;
   }
-  .login-form input[type="button"] {
+  .login-form button {
     height:30px;
     width:100px;
     background:#fff;
@@ -305,6 +306,50 @@ input[type=password]{
    align-content: center;
  
   }
+  /*status of the request*/
+  h2.table_buttons{
+    color: #000;
+    height: 20px;
+    padding: 0.15em 4px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,0.12)
+  }
+  h2#new{
+    background-color: yellow;
+   width: 30px;
+   
+  }
+  h2#reject{
+    background-color: red;
+    width: 60px;
+  }
+  h2#approve{
+    background-color: green;
+    width: 70px;
+  }
+  
+  h2#pending {
+    background-color: rgb(4, 120, 173);
+    width: 80px;
+  }
+  h2#maintenance{
+    background-color: rgba(39, 38, 39, 0.315);
+    width: 90px;
+    margin-left: 100px;
+    position: relative;
+    top: 25px;
+}
+h2#repair{
+  background-color: rgba(224, 108, 12, 0.918);
+    width: 40px;
+    margin-left: 100px;
+    position: relative;
+    top: 25px;
+
+}
  /* table.table1{
     border-collapse: collapse;
     width:100%;
@@ -366,12 +411,27 @@ input[type=password]{
  .resolve_button {
   margin-bottom: 20px;
   margin-top: 15px;
+  background-color: blue
+ }
+ .reject_button {
+   background-color: red;
+ }
+ .approve_button {
+   background-color: green;
  }
 
  .suspend_button {
   margin-bottom: 20px;
   margin-top: 15px;
+  background-color: blue;
  }
+ .delete_button {
+   background-color: red;
+   
+  }
+  .admin_button {
+    background-color: green;
+  }
 
  #search_bar {
    width: 40% !important;
@@ -393,7 +453,6 @@ input[type=password]{
 
  .admin_buttons button{
   text-align: center;
-  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -402,4 +461,44 @@ input[type=password]{
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
+ }
+
+ #username{
+  width: 40% !important;
+  position: relative;
+  left: 110px;
+ }
+
+ #form1-span {
+  position: relative;
+  left: -136px;
+ }
+
+ #form1 select {
+  margin-bottom: 30px;
+  height: 40px;
+ }
+
+ #request-span {
+  position: relative;
+  margin-left: 189px;
+  
+ }
+
+ #form1 textarea {
+  position: relative;
+  margin-left: 60px;
+  width: 520px;
+ }
+
+ #user-span {
+  position: relative;
+  left: 60px;
+ }
+
+
+ #createRequest {
+  position: relative;
+  font-size: 30px;
+  top: 30px;
  }

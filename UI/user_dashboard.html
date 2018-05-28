@@ -15,7 +15,7 @@
                 <p> <strong><a href="index.html" class="active">MaintenanceTracker</a></p></strong>
                 <ul>
                     <li><a href="#" >About</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="index.html">Logout</a></li>
                     <li><a href ="admin_dashboard.html">Admin Dashboard</a></li>
                 </ul>
             </nav>
@@ -23,7 +23,7 @@
 	<!--End of Navigation Bar!!-->
 
 	<div class="container">
-			<h1><br>Dashboard</h1> <hr>
+            <h1><br>Welcome User</h1> <hr>
 		</div>
 	</div>
 	
@@ -31,20 +31,28 @@
     <button class="button" id="makeRequestBtn" style="vertical-align:left"><a href="create_request.html"<span>Make a Request </span></a></button><br><br><br>
     
         <h3 id="requestHeading">Requests made:</h3>
+        Filter By:<select id="request_filter">
+                <option >Type:</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="Repair">Repair</option>
+                </select>
+                <select id="request_filter">
+                <option>Status:</option>
+                <option value="New">New</option>
+                <option value="Pending">Pending</option>
+                <option value="Approved">Approved</option>
+                <option value="Rejected">Rejected</option>
+                </select>
     
     <div  id="table_div"class="container">
 	
       
 		<table class="table1">
-                <tr><td> ipsum dolor sit amet, consectetur adipisicing elit. Unde itaque aperiam, excepturi asperiores
-                     reprehenderit obcaecati impedit repellat facilis fugit pariatur rem adipisci error eius dicta minima nobis vero quia? Porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci temporibus rerum error pariatur maxime architecto, odio eveniet, sapiente officiis vel dolores magnam similique natus ratione libero quis sunt! Quasi, expedita?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ab quasi fugit ut sint aut, nam aperiam aliquam dolorem reprehenderit soluta provident neque saepe eius! Pariatur dicta molestiae magni asperiores.</td></tr>
+                <tr><td>The Laptop screen is cracked and the the Esc button doesnot work at all.<h2 class = "table_buttons" id="repair">repair</h2><h2 class="table_buttons" id ="new">New</h2></td></tr>
 
-                <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto recusandae dicta adipisci. Autem accusantium animi corrupti perspiciatis quibusdam fugiat doloribus, excepturi rerum neque,
-                     expedita provident deserunt exercitationem magni, voluptatem distinctio.</td></tr>
-                <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,
-                     laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
-                     <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,
-                        laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
+                <tr><td><hr> <br>Need to switch from Windows operating software to iOS on my Lenovo notepad.<h2 class = "table_buttons" id="maintenance">maintenance</h2><h2 class="table_buttons" id="reject">Rejected</h2></td></tr>
+                <tr><td><hr> <br>Update from Windows 8 to Windows 10. <h2 class = "table_buttons" id="maintenance">maintenance</h2><h2  class= "table_buttons"id="approve">Approved</h2></td></tr>
+                     <tr><td><hr> <br>My Samsung S4 keeps saying 'no memory' yet it is practically empty.<h2 class = "table_buttons" id="maintenance">maintenance</h2><h2 class="table_buttons" id="pending">Pending</h2></td></tr>
                     <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
                     <tr><td><hr> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime pariatur, illo voluptas ut optio quibusdam eligendi minima quis ea possimus,laborum eos nemo nisi! Fugiat autem facilis totam perspiciatis.</td></tr>
                 </table>
