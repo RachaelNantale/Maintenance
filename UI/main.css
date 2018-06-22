@@ -5,10 +5,21 @@
     padding-top: auto; 
 }
 /* for the body*/
+.transparent{
+  text-align: center;
+   background-color: #292828cc;
+   padding: 20px;
+   height: 100%;
+   margin:70px;
+ 
+}
 .body{
+    background-image: url('comp4.jpg');
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:"Roboto", Helvetica, sans-serif;
-    background-color:#e1e3e4;
-    opacity: 0.9;
+    background-color: #292828cc;
     /* if you don't want your side nav to show */
     overflow-x: hidden;
     display: block;
@@ -19,6 +30,7 @@
     width: 100%;
     padding: 0;
     text-align: center;
+    color: white;
 }
 /*End of body styles */
 
@@ -43,7 +55,7 @@ nav p{
 /*Style the links inside the navigation bar */
  a {
   float: left;
-  color: blueviolet;
+  color: white;
   text-align: center;
   padding: 0 20px;
   text-decoration: none;
@@ -51,11 +63,12 @@ nav p{
 }
 a.textalign_right{
   float: left;
-  color:#7707df;
+  color:white;
   margin-left: 45%;
   padding: 0 20px;
   text-decoration: none;
   font-size: 24px;
+  background-color:#7707df;
   
 
 }
@@ -128,16 +141,25 @@ nav ul li ul li a:hover{
 /* End of navigation styles */
 
 /*first div of the  index page*/
+
 .firstdiv {
     text-align: center;
+
 }
 /* the first heading of the index page*/
 .firsthead{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: white;
  
 }
+.index_div{
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+  }
 /*Sign up form*/
 #form1 {
     margin-left: 40px;
@@ -159,8 +181,8 @@ input[type=password]{
     width:80%;
     padding: 10px;
 }
-/*sty;es for the sigmup heading. yhough they dont work haha*/
-#signupheading {
+/*sty;es for the sigmup heading.*/
+.signupheading {
     margin-bottom:40px;
     font-size: 20px;
 }
@@ -189,13 +211,9 @@ input[type=password]{
   .login-header {
     color:#000;
     text-align:center;
-    font-size:300%;
+    font-size:200%;
+    color: white;
   }
-  /*.login-form {
-    border:.5px solid #000;
-    
-    box-shadow:0px 0px 10px #000;
-  }*/
   
   .login-form h3 {
     text-align:left;
@@ -234,6 +252,18 @@ input[type=password]{
     font-family: 'Ubuntu', sans-serif;
     cursor:pointer;
   }
+  .login-button {
+    text-align: center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
   .sign-up{
     color:#070303;
     margin-left:-70%;
@@ -263,6 +293,8 @@ input[type=password]{
   #table_div{
    order:.5px solid #000;
    background: white;
+   background-color: rgba(0, 0, 0, 0.5);
+  
    border-radius:10px;
    box-shadow:0px 0px 10px #000;
    box-sizing:border-box;
@@ -271,12 +303,13 @@ input[type=password]{
    margin:0% auto;
    text-align:center;
    top: 90px; 
-   position: relative;
+  position: relative;
    border-radius: 10px; 
    padding: 20px; 
    text-align: left; 
    width: 95%;
-   margin-bottom: 70px;
+   margin-bottom: 10px;
+   margin-top: -30px;
  
   }
 
@@ -336,34 +369,20 @@ input[type=password]{
     width: 80px;
   }
   h2#maintenance{
-    background-color: rgba(39, 38, 39, 0.315);
+    background-color: rgb(238, 110, 5);
     width: 90px;
     margin-left: 100px;
     position: relative;
     top: 25px;
 }
 h2#repair{
-  background-color: rgba(224, 108, 12, 0.918);
+  background-color: rgb(238, 10, 67);
     width: 40px;
     margin-left: 100px;
     position: relative;
     top: 25px;
 
 }
- /* table.table1{
-    border-collapse: collapse;
-    width:100%;
-  }
-  table.table1, th.TableHead, td.TableData  {
-    table-layout: fixed;
-    border: 1px solid black;
-    text-align: left;
-    height: 40px;
-  }
-  table.table1, th.TableHead, td.TableData {
-   width: 170px;
-  }
- */
   .footer {
     position: fixed;
     left: 0;
@@ -379,6 +398,7 @@ h2#repair{
 
  #register {
    text-align: center;
+   color: white;
  }
 
  /** CSS for the form input labels **/
@@ -389,23 +409,28 @@ h2#repair{
   float: left;
   margin-left: -60px;
   top: 34px;
+  color: white;
  }
 
  #makeRequestBtn {
   top: 30px;
   position: relative;
+  background-color: blueviolet;
+  color: #000;
  }
 
  #requestHeading {
   position: relative;
     left: -500px;
     top: 80px;
+    
  }
 
  .requestHeading {
   position: relative;
     left: -500px;
-    top: 80px;
+    top: 40px;
+    color: white;
  }
 
  .resolve_button {
@@ -455,7 +480,6 @@ h2#repair{
   text-align: center;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -472,6 +496,7 @@ h2#repair{
  #form1-span {
   position: relative;
   left: -136px;
+  margin-left: 70px;
  }
 
  #form1 select {
@@ -481,19 +506,22 @@ h2#repair{
 
  #request-span {
   position: relative;
-  margin-left: 189px;
+  margin-left: 320px;
+  float: left;
+  
   
  }
 
  #form1 textarea {
   position: relative;
-  margin-left: 60px;
+  margin-left: 50px;
   width: 520px;
  }
 
  #user-span {
   position: relative;
   left: 60px;
+  margin-left:4px;
  }
 
 

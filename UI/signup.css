@@ -4,11 +4,22 @@
     margin: auto;
     padding-top: auto; 
 }
+.transparent{
+  text-align: center;
+   background-color: #292828cc;
+   padding: 20px;
+   height: 100%;
+   margin:70px;
+ 
+}
 /* for the body*/
 .body{
+    background-image: url('comp4.jpg');
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:"Roboto", Helvetica, sans-serif;
-    background-color:#e1e3e4;
-    opacity: 0.9;
+    background-color: #292828cc;
     /* if you don't want your side nav to show */
     overflow-x: hidden;
     display: block;
@@ -127,6 +138,11 @@ nav ul li ul li a:hover{
 /* End of navigation styles */
 
 /*first div of the  index page*/
+.labels{
+  margin-right: 60px;
+  color: white;
+  
+ }
 .firstdiv {
     text-align: center;
 }
@@ -135,35 +151,45 @@ nav ul li ul li a:hover{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: white;
+    margin-top: -60px;
+    margin-bottom: -20px;
  
+}
+.signupheading {
+    margin-bottom:30px;
+    font-size: 20px;
+    color: white;
+
 }
 /*Sign up form*/
 #form1 {
-    margin-left: 40px;
-    margin-right:  50%;
+  
+    text-align: center;
+    /*margin-left: 40px;
     margin-top:  60px;
-    margin-bottom: 100px
+    margin-bottom: 100px*/
 }
 /*Class for input for sign up*/
 .margin-setiing{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 /* sytles for all input*/
 input[type=text]{
-    width:100%;
+    width:25%;
     padding: 10px;
 
 }
 input[type=password]{
-    width:100%;
+    width:25%;
     padding: 10px;
 }
-i
+
 /*sty;es for the sigmup heading. yhough they dont work haha*/
-#signupheading {
+/*#signupheading {
     margin-bottom:40px;
     font-size: 20px;
-}
+}*/
 /* Styles for the submit button*/
 .button{
     text-align: center;
@@ -281,20 +307,7 @@ i
    align-content: center;
  
   }
- /* table.table1{
-    border-collapse: collapse;
-    width:100%;
-  }
-  table.table1, th.TableHead, td.TableData  {
-    table-layout: fixed;
-    border: 1px solid black;
-    text-align: left;
-    height: 40px;
-  }
-  table.table1, th.TableHead, td.TableData {
-   width: 170px;
-  }
- */
+
   .footer {
     position: fixed;
     left: 0;
@@ -329,7 +342,7 @@ i
 
  
 
- /*#lastname {
+ #lastname {
   margin-left: 4px;
  }
 
@@ -347,5 +360,5 @@ i
 
  #password2 {
   margin-left: -43px;
- }*/
+ }
 
