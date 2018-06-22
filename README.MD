@@ -1,5 +1,5 @@
 ## Project Link
-(https://rachaelnantale.github.io/Maintenance/UI/index.html)
+(https://rachaelnantale.github.io/Maintenance/index.html)
 
 Maintenance App Tracker
 ======================
