@@ -4,9 +4,17 @@
     margin: auto;
     padding-top: auto; 
 }
+.transparent{
+  text-align: center;
+   background-color: #292828cc;
+   padding: 20px;
+   height: 100%;
+   margin:70px;
+ 
+}
 /* for the body*/
 .body{
-    background-image: url('comp2.jpg');
+    background-image: url('comp4.jpg');
     max-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,9 +138,13 @@ nav ul li ul li a:hover{
 /* End of navigation styles */
 
 /*first div of the  index page*/
+.labels{
+  margin-right: 60px;
+  color: white;
+  
+ }
 .firstdiv {
     text-align: center;
-    color:white;
 }
 /* the first heading of the index page*/
 .firsthead{
@@ -140,7 +152,15 @@ nav ul li ul li a:hover{
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
+    margin-top: -60px;
+    margin-bottom: -20px;
  
+}
+.signupheading {
+    margin-bottom:30px;
+    font-size: 20px;
+    color: white;
+
 }
 /*Sign up form*/
 #form1 {
@@ -152,8 +172,7 @@ nav ul li ul li a:hover{
 }
 /*Class for input for sign up*/
 .margin-setiing{
-    margin-bottom: 20px;
-    
+    margin-bottom: 10px;
 }
 /* sytles for all input*/
 input[type=text]{
@@ -167,11 +186,10 @@ input[type=password]{
 }
 
 /*sty;es for the sigmup heading. yhough they dont work haha*/
-.signupheading {
+/*#signupheading {
     margin-bottom:40px;
     font-size: 20px;
-    color: white;
-}
+}*/
 /* Styles for the submit button*/
 .button{
     text-align: center;
@@ -289,20 +307,7 @@ input[type=password]{
    align-content: center;
  
   }
- /* table.table1{
-    border-collapse: collapse;
-    width:100%;
-  }
-  table.table1, th.TableHead, td.TableData  {
-    table-layout: fixed;
-    border: 1px solid black;
-    text-align: left;
-    height: 40px;
-  }
-  table.table1, th.TableHead, td.TableData {
-   width: 170px;
-  }
- */
+
   .footer {
     position: fixed;
     left: 0;
@@ -355,9 +360,5 @@ input[type=password]{
 
  #password2 {
   margin-left: -43px;
- }
- .labels{
-  margin-right: 60px;
-  color: white;
  }
 
